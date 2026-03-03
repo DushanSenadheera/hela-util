@@ -1,0 +1,30 @@
+{
+  "name": "hela-util",
+  "version": "1.0.0",
+  "description": "A utility library for Sri Lankan provinces and districts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --loader ts-node/esm example.ts"
+  },
+  "keywords": [
+    "sri lanka",
+    "provinces",
+    "districts",
+    "util"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.0.0"
+  }
+}

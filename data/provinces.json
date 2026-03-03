@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Central",
+    "sinhala_name": "මධ්‍යම",
+    "tamil_name": "மத்திய",
+    "iso_code": "LK-2",
+    "p_code": "LK2",
+    "capital": "Kandy",
+    "districts": ["Kandy", "Matale", "Nuwara Eliya"]
+  },
+  {
+    "name": "Eastern",
+    "sinhala_name": "නැගෙනහිර",
+    "tamil_name": "கிழக்கு",
+    "iso_code": "LK-5",
+    "p_code": "LK5",
+    "capital": "Trincomalee",
+    "districts": ["Ampara", "Batticaloa", "Trincomalee"]
+  },
+  {
+    "name": "North Central",
+    "sinhala_name": "උතුරු මැද",
+    "tamil_name": "வட மத்திய",
+    "iso_code": "LK-7",
+    "p_code": "LK7",
+    "capital": "Anuradhapura",
+    "districts": ["Anuradhapura", "Polonnaruwa"]
+  },
+  {
+    "name": "North Western",
+    "sinhala_name": "වයඹ",
+    "tamil_name": "வட மேல்",
+    "iso_code": "LK-6",
+    "p_code": "LK6",
+    "capital": "Kurunegala",
+    "districts": ["Kurunegala", "Puttalam"]
+  },
+  {
+    "name": "Northern",
+    "sinhala_name": "උතුරු",
+    "tamil_name": "வட",
+    "iso_code": "LK-4",
+    "p_code": "LK4",
+    "capital": "Jaffna",
+    "districts": ["Jaffna", "Kilinochchi", "Mannar", "Mullaitivu", "Vavuniya"]
+  },
+  {
+    "name": "Sabaragamuwa",
+    "sinhala_name": "සබරගමුව",
+    "tamil_name": "சபரகமுவ",
+    "iso_code": "LK-9",
+    "p_code": "LK9",
+    "capital": "Ratnapura",
+    "districts": ["Kegalle", "Ratnapura"]
+  },
+  {
+    "name": "Southern",
+    "sinhala_name": "දකුණු",
+    "tamil_name": "தென்",
+    "iso_code": "LK-3",
+    "p_code": "LK3",
+    "capital": "Galle",
+    "districts": ["Galle", "Hambantota", "Matara"]
+  },
+  {
+    "name": "Uva",
+    "sinhala_name": "ඌව",
+    "tamil_name": "ஊவா",
+    "iso_code": "LK-8",
+    "p_code": "LK8",
+    "capital": "Badulla",
+    "districts": ["Badulla", "Moneragala"]
+  },
+  {
+    "name": "Western",
+    "sinhala_name": "බස්නාහිර",
+    "tamil_name": "மேල්",
+    "iso_code": "LK-1",
+    "p_code": "LK1",
+    "capital": "Colombo",
+    "districts": ["Colombo", "Gampaha", "Kalutara"]
+  }
+]

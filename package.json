@@ -1,7 +1,7 @@
 {
   "name": "hela-util",
   "version": "2.0.0",
-  "description": "A utility library for Sri Lankan provinces and districts",
+  "description": "A utility library for Sri Lankan administrative regions and postal codes",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -18,9 +18,14 @@
     "sri lanka",
     "provinces",
     "districts",
-    "util"
+    "ds divisions",
+    "postal codes",
+    "hela-util",
+    "npm",
+    "util",
+    "typescript"
   ],
-  "author": "",
+  "author": "Dushan Senadheera",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.0.0",

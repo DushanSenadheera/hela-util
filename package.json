@@ -1,6 +1,6 @@
 {
   "name": "hela-util",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "A utility library for Sri Lankan administrative regions and postal codes",
   "main": "./dist/index.js",
   "module": "./dist/index.js",

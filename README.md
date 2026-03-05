@@ -1,16 +1,25 @@
 # 🇱🇰 hela-util
 
-A lightweight, type-safe utility library for working with Sri Lankan administrative regions (provinces and districts).
+A lightweight, type-safe utility library for working with Sri Lankan administrative regions (provinces, districts, and DS divisions) and postal codes.
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=flat-square)](https://opensource.org/licenses/ISC)
 
+---
+
 ## ✨ Features
 
-- 📦 **Lightweight**: Zero dependencies (only uses raw data).
-- 🛡️ **Type-safe**: Built with TypeScript with full type definitions.
-- 🚀 **ESM Ready**: Supports modern environments and NodeNext resolution.
-- 🗺️ **Comprehensive**: Includes names in English, Sinhala, and Tamil, plus ISO codes.
+- 📦 **Lightweight**: Zero external dependencies.
+- 🛡️ **Type-safe**: Built with TypeScript with full type definitions included.
+- 🚀 **Modern**: Supports ES Modules (ESM) and modern Node.js environments.
+- 🗺️ **Comprehensive**: 
+  - All 9 Provinces (English, Sinhala, Tamil names + ISO codes).
+  - All 25 Districts.
+  - 331 Divisional Secretariat (DS) Divisions with GN division counts.
+  - Complete list of Postal Codes for major locations.
+- ✅ **Validation**: Built-in helper for validating Sri Lankan postal codes.
+
+---
 
 ## 📦 Installation
 
@@ -18,51 +27,74 @@ A lightweight, type-safe utility library for working with Sri Lankan administrat
 npm install hela-util
 ```
 
+---
+
 ## 🚀 Quick Start
 
-Here is how you can use `hela-util` in your project:
-
 ```typescript
-import { getProvinces, getDistrictsByProvince, provinces } from "hela-util";
+import { 
+    getProvinces, 
+    getDistrictsByProvince, 
+    getDSDivisionsByDistrict,
+    getPostalCodeByLocation,
+    isValidPostalCode 
+} from "hela-util";
 
-// Get all provinces with metadata
+// 1. Get all provinces
 const allProvinces = getProvinces();
-console.log(allProvinces);
 
-// Get districts for a specific province
-const centralDistricts = getDistrictsByProvince("Central");
-console.log(centralDistricts); // ["Kandy", "Matale", "Nuwara Eliya"]
+// 2. Get districts for a specific province
+const districts = getDistrictsByProvince("Central"); 
+// Output: ["Kandy", "Matale", "Nuwara Eliya"]
 
-// Access the raw data directly
-console.log(provinces[0].sinhala_name); // "බස්නාහිර"
+// 3. Get DS Divisions for a district
+const colomboDivisions = getDSDivisionsByDistrict("Colombo");
+/* Output: [
+     { name: 'Colombo', gn_divisions: 35 },
+     { name: 'Kolonnawa', gn_divisions: 46 },
+     ...
+   ] 
+*/
+
+// 4. Find a postal code
+const code = getPostalCodeByLocation("Athurugiriya(CO)");
+// Output: { postal_code: '10150', location: 'Athurugiriya(CO)' }
+
+// 5. Validate a postal code
+const isValid = isValidPostalCode("10250"); // true
 ```
+
+---
 
 ## 📖 API Reference
 
-### `getProvinces()`
-Returns an array of all Province objects. Each object contains:
-- `name`: English name
-- `sinhala_name`: Sinhala name
-- `tamil_name`: Tamil name
-- `iso_code`: ISO 3166-2 code
-- `capital`: Provincial capital
-- `districts`: List of district names
+### Provinces & Districts
+- **`getProvinces()`**: Returns an array of `Province` objects (includes Sinhala/Tamil names, ISO codes, and districts).
+- **`getDistrictsByProvince(provinceName)`**: Returns a string array of district names.
 
-### `getDistrictsByProvince(provinceName: string)`
-Returns an array of district names (strings) for the given province name.
+### DS Divisions
+- **`getDSDivisionsByDistrict(districtName)`**: Returns an array of `DSDivision` objects (`name` and `gn_divisions`).
+- **`getDSDivisions()`**: Returns the full hierarchy of districts and their DS divisions.
 
-### `provinces` (Constant)
-The raw array of Province data.
+### Postal Codes
+- **`getPostalCodeByLocation(location)`**: Returns a `PostalCode` object for the matched location.
+- **`getPostalCodes()`**: Returns the full array of postal codes.
+- **`isValidPostalCode(code)`**: Returns `true` if the string matches the 5-digit Sri Lankan postal code format.
+
+---
 
 ## 🛠️ Development
 
-If you want to contribute to the project:
-
 1. Clone the repository.
 2. Install dependencies: `npm install`.
-3. Run the example: `npm run dev`.
-4. Build the project: `npm run build`.
+3. Run the development example: `npm run dev`.
+4. Build the production files: `npm run build`.
+
+---
 
 ## 📄 License
 
 This project is licensed under the [ISC License](LICENSE).
+
+---
+*Maintained with ❤️ for the Sri Lankan developer community.*

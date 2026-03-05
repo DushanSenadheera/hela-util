@@ -12,3 +12,13 @@ export type PostalCode = {
     postal_code: string;
     location: string;
 }
+
+export type DSDivision = {
+    name: string;
+    gn_divisions: number;
+}
+
+export type DistrictDSDivisions = {
+    district: string;
+    ds_divisions: DSDivision[];
+}

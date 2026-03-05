@@ -1,4 +1,4 @@
-import { provinces, postalCodes } from "../index.js";
+import { provinces, postalCodes, dsDivisions } from "../index.js";
 
 /**
  * Get all provinces
@@ -19,8 +19,8 @@ export const getDistrictsByProvince = (province: string) => {
 
 /**
  * Get postal code by location
-    * @param location - Location name
- * @returns {PostalCode[]}
+ * @param location - Location name
+ * @returns {PostalCode}
  */
 export const getPostalCodeByLocation = (location: string) => {
     return postalCodes.find((p) => p.location === location);
@@ -42,4 +42,21 @@ export const getPostalCodes = () => {
 export const isValidPostalCode = (postalCode: string): boolean => {
     const regex = /^\d{5}$/;
     return regex.test(postalCode);
+}
+
+/**
+ * Get all DS divisions by district
+ * @param district - District name
+ * @returns {DSDivision[]}
+ */
+export const getDSDivisionsByDistrict = (district: string) => {
+    return dsDivisions.find((d) => d.district === district)?.ds_divisions;
+}
+
+/**
+ * Get all DS divisions
+ * @returns {DistrictDSDivisions[]}
+ */
+export const getDSDivisions = () => {
+    return dsDivisions;
 }

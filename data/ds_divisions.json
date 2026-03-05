@@ -1,0 +1,1451 @@
+[
+  {
+    "district": "Colombo",
+    "ds_divisions": [
+      {
+        "name": "Colombo",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Kolonnawa",
+        "gn_divisions": 46
+      },
+      {
+        "name": "Kaduwela",
+        "gn_divisions": 57
+      },
+      {
+        "name": "Homagama",
+        "gn_divisions": 81
+      },
+      {
+        "name": "Seethawaka (Hanwella)",
+        "gn_divisions": 68
+      },
+      {
+        "name": "Padukka",
+        "gn_divisions": 46
+      },
+      {
+        "name": "Maharagama",
+        "gn_divisions": 41
+      },
+      {
+        "name": "Sri Jayawardanapura Kotte",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Thimbirigasyaya",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Dehiwala",
+        "gn_divisions": 15
+      },
+      {
+        "name": "Ratmalana",
+        "gn_divisions": 13
+      },
+      {
+        "name": "Moratuwa",
+        "gn_divisions": 42
+      },
+      {
+        "name": "Kesbewa",
+        "gn_divisions": 73
+      }
+    ]
+  },
+  {
+    "district": "Gampaha",
+    "ds_divisions": [
+      {
+        "name": "Negombo",
+        "gn_divisions": 39
+      },
+      {
+        "name": "Katana",
+        "gn_divisions": 79
+      },
+      {
+        "name": "Divulapitiya",
+        "gn_divisions": 123
+      },
+      {
+        "name": "Mirigama",
+        "gn_divisions": 149
+      },
+      {
+        "name": "Minuwangoda",
+        "gn_divisions": 121
+      },
+      {
+        "name": "Wattala",
+        "gn_divisions": 46
+      },
+      {
+        "name": "Ja-Ela",
+        "gn_divisions": 57
+      },
+      {
+        "name": "Gampaha",
+        "gn_divisions": 101
+      },
+      {
+        "name": "Attanagalla",
+        "gn_divisions": 151
+      },
+      {
+        "name": "Dompe",
+        "gn_divisions": 133
+      },
+      {
+        "name": "Mahara",
+        "gn_divisions": 92
+      },
+      {
+        "name": "Kelaniya",
+        "gn_divisions": 37
+      },
+      {
+        "name": "Biyagama",
+        "gn_divisions": 49
+      }
+    ]
+  },
+  {
+    "district": "Kalutara",
+    "ds_divisions": [
+      {
+        "name": "Panadura",
+        "gn_divisions": 72
+      },
+      {
+        "name": "Bandaragama",
+        "gn_divisions": 59
+      },
+      {
+        "name": "Horana",
+        "gn_divisions": 61
+      },
+      {
+        "name": "Ingiriya",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Bulathsinhala",
+        "gn_divisions": 54
+      },
+      {
+        "name": "Madurawala",
+        "gn_divisions": 33
+      },
+      {
+        "name": "Millaniya",
+        "gn_divisions": 44
+      },
+      {
+        "name": "Kalutara",
+        "gn_divisions": 87
+      },
+      {
+        "name": "Beruwala",
+        "gn_divisions": 82
+      },
+      {
+        "name": "Dodangoda",
+        "gn_divisions": 45
+      },
+      {
+        "name": "Mathugama",
+        "gn_divisions": 57
+      },
+      {
+        "name": "Agalawatta",
+        "gn_divisions": 34
+      },
+      {
+        "name": "Palindanuwara",
+        "gn_divisions": 43
+      },
+      {
+        "name": "Walallavita",
+        "gn_divisions": 60
+      }
+    ]
+  },
+  {
+    "district": "Kandy",
+    "ds_divisions": [
+      {
+        "name": "Thumpane",
+        "gn_divisions": 67
+      },
+      {
+        "name": "Pujapitiya",
+        "gn_divisions": 67
+      },
+      {
+        "name": "Akurana",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Pathadumbara",
+        "gn_divisions": 52
+      },
+      {
+        "name": "Panvila",
+        "gn_divisions": 14
+      },
+      {
+        "name": "Udadumbara",
+        "gn_divisions": 63
+      },
+      {
+        "name": "Minipe",
+        "gn_divisions": 48
+      },
+      {
+        "name": "Medadumbara",
+        "gn_divisions": 93
+      },
+      {
+        "name": "Kundasale",
+        "gn_divisions": 80
+      },
+      {
+        "name": "Kandy Four Gravets & Gangawata Korale",
+        "gn_divisions": 64
+      },
+      {
+        "name": "Harispattuwa",
+        "gn_divisions": 84
+      },
+      {
+        "name": "Hatharaliyadda",
+        "gn_divisions": 57
+      },
+      {
+        "name": "Yatinuwara",
+        "gn_divisions": 95
+      },
+      {
+        "name": "Udunuwara",
+        "gn_divisions": 124
+      },
+      {
+        "name": "Doluwa",
+        "gn_divisions": 33
+      },
+      {
+        "name": "Pathahewaheta",
+        "gn_divisions": 73
+      },
+      {
+        "name": "Deltota",
+        "gn_divisions": 29
+      },
+      {
+        "name": "Udapalatha",
+        "gn_divisions": 49
+      },
+      {
+        "name": "Ganga Ihala Korale",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Pasbage Korale",
+        "gn_divisions": 29
+      }
+    ]
+  },
+  {
+    "district": "Matale",
+    "ds_divisions": [
+      {
+        "name": "Galewela",
+        "gn_divisions": 59
+      },
+      {
+        "name": "Dambulla",
+        "gn_divisions": 59
+      },
+      {
+        "name": "Naula",
+        "gn_divisions": 52
+      },
+      {
+        "name": "Pallepola",
+        "gn_divisions": 44
+      },
+      {
+        "name": "Yatawatta",
+        "gn_divisions": 56
+      },
+      {
+        "name": "Matale",
+        "gn_divisions": 52
+      },
+      {
+        "name": "Ambanganga Korale",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Laggala-Pallegama",
+        "gn_divisions": 37
+      },
+      {
+        "name": "Wilgamuwa",
+        "gn_divisions": 39
+      },
+      {
+        "name": "Rattota",
+        "gn_divisions": 54
+      },
+      {
+        "name": "Ukuwela",
+        "gn_divisions": 73
+      }
+    ]
+  },
+  {
+    "district": "Nuwara Eliya",
+    "ds_divisions": [
+      {
+        "name": "Kothmale",
+        "gn_divisions": 96
+      },
+      {
+        "name": "Hanguranketha",
+        "gn_divisions": 131
+      },
+      {
+        "name": "Walapane",
+        "gn_divisions": 125
+      },
+      {
+        "name": "Nuwara Eliya",
+        "gn_divisions": 72
+      },
+      {
+        "name": "Ambagamuwa",
+        "gn_divisions": 67
+      }
+    ]
+  },
+  {
+    "district": "Galle",
+    "ds_divisions": [
+      {
+        "name": "Bentota",
+        "gn_divisions": 51
+      },
+      {
+        "name": "Balapitiya",
+        "gn_divisions": 51
+      },
+      {
+        "name": "Karandeniya",
+        "gn_divisions": 40
+      },
+      {
+        "name": "Elpitiya",
+        "gn_divisions": 51
+      },
+      {
+        "name": "Niyagama",
+        "gn_divisions": 34
+      },
+      {
+        "name": "Thawalama",
+        "gn_divisions": 36
+      },
+      {
+        "name": "Neluwa",
+        "gn_divisions": 34
+      },
+      {
+        "name": "Nagoda",
+        "gn_divisions": 53
+      },
+      {
+        "name": "Baddegama",
+        "gn_divisions": 70
+      },
+      {
+        "name": "Welivitiya-Divithura",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Ambalangoda",
+        "gn_divisions": 36
+      },
+      {
+        "name": "Gonapeenuwala",
+        "gn_divisions": 19
+      },
+      {
+        "name": "Hikkaduwa",
+        "gn_divisions": 97
+      },
+      {
+        "name": "Galle Four Gravets",
+        "gn_divisions": 50
+      },
+      {
+        "name": "Bope-Poddala",
+        "gn_divisions": 44
+      },
+      {
+        "name": "Akmeemana",
+        "gn_divisions": 63
+      },
+      {
+        "name": "Yakkalamulla",
+        "gn_divisions": 44
+      },
+      {
+        "name": "Imaduwa",
+        "gn_divisions": 43
+      },
+      {
+        "name": "Habaraduwa",
+        "gn_divisions": 59
+      }
+    ]
+  },
+  {
+    "district": "Matara",
+    "ds_divisions": [
+      {
+        "name": "Pitabeddara",
+        "gn_divisions": 40
+      },
+      {
+        "name": "Kotapola",
+        "gn_divisions": 37
+      },
+      {
+        "name": "Pasgoda",
+        "gn_divisions": 43
+      },
+      {
+        "name": "Mulatiyana",
+        "gn_divisions": 48
+      },
+      {
+        "name": "Athuraliya",
+        "gn_divisions": 28
+      },
+      {
+        "name": "Akuressa",
+        "gn_divisions": 46
+      },
+      {
+        "name": "Welipitiya",
+        "gn_divisions": 38
+      },
+      {
+        "name": "Malimbada",
+        "gn_divisions": 29
+      },
+      {
+        "name": "Kamburupitiya",
+        "gn_divisions": 39
+      },
+      {
+        "name": "Hakmana",
+        "gn_divisions": 34
+      },
+      {
+        "name": "Kirinda Puhulwella",
+        "gn_divisions": 25
+      },
+      {
+        "name": "Thihagoda",
+        "gn_divisions": 40
+      },
+      {
+        "name": "Weligama",
+        "gn_divisions": 48
+      },
+      {
+        "name": "Matara Four Gravets",
+        "gn_divisions": 66
+      },
+      {
+        "name": "Devinuwara",
+        "gn_divisions": 41
+      },
+      {
+        "name": "Dickwella",
+        "gn_divisions": 48
+      }
+    ]
+  },
+  {
+    "district": "Hambantota",
+    "ds_divisions": [
+      {
+        "name": "Sooriyawewa",
+        "gn_divisions": 21
+      },
+      {
+        "name": "Lunugamvehera",
+        "gn_divisions": 36
+      },
+      {
+        "name": "Thissamaharama",
+        "gn_divisions": 44
+      },
+      {
+        "name": "Hambantota",
+        "gn_divisions": 30
+      },
+      {
+        "name": "Ambalantota",
+        "gn_divisions": 55
+      },
+      {
+        "name": "Angunakolapelessa",
+        "gn_divisions": 51
+      },
+      {
+        "name": "Weeraketiya",
+        "gn_divisions": 60
+      },
+      {
+        "name": "Katuwana",
+        "gn_divisions": 56
+      },
+      {
+        "name": "Walasmulla",
+        "gn_divisions": 53
+      },
+      {
+        "name": "Okewela",
+        "gn_divisions": 27
+      },
+      {
+        "name": "Beliatta",
+        "gn_divisions": 71
+      },
+      {
+        "name": "Tangalle",
+        "gn_divisions": 72
+      }
+    ]
+  },
+  {
+    "district": "Jaffna",
+    "ds_divisions": [
+      {
+        "name": "Island North (Kayts)",
+        "gn_divisions": 15
+      },
+      {
+        "name": "Karainagar",
+        "gn_divisions": 9
+      },
+      {
+        "name": "Valikamam West (Chankanai)",
+        "gn_divisions": 25
+      },
+      {
+        "name": "Valikamam South-West (Sandilipay)",
+        "gn_divisions": 28
+      },
+      {
+        "name": "Valikamam North (Tellipallai)",
+        "gn_divisions": 45
+      },
+      {
+        "name": "Valikamam South (Uduvil)",
+        "gn_divisions": 30
+      },
+      {
+        "name": "Valikamam East (Kopay)",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Vadamaradchi South-West (Karaveddy)",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Vadamaradchi East",
+        "gn_divisions": 18
+      },
+      {
+        "name": "Vadamaradchi North (Point Pedro)",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Thenmaradchi (Chavakachcheri)",
+        "gn_divisions": 60
+      },
+      {
+        "name": "Nallur",
+        "gn_divisions": 40
+      },
+      {
+        "name": "Jaffna",
+        "gn_divisions": 28
+      },
+      {
+        "name": "Island South (Velanai)",
+        "gn_divisions": 30
+      },
+      {
+        "name": "Delft",
+        "gn_divisions": 6
+      }
+    ]
+  },
+  {
+    "district": "Mannar",
+    "ds_divisions": [
+      {
+        "name": "Mannar Town",
+        "gn_divisions": 49
+      },
+      {
+        "name": "Manthai West",
+        "gn_divisions": 36
+      },
+      {
+        "name": "Madhu",
+        "gn_divisions": 17
+      },
+      {
+        "name": "Nanattan",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Musali",
+        "gn_divisions": 20
+      }
+    ]
+  },
+  {
+    "district": "Vavuniya",
+    "ds_divisions": [
+      {
+        "name": "Vavuniya North",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Vavuniya South",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Vavuniya",
+        "gn_divisions": 42
+      },
+      {
+        "name": "Vengalacheddikulam",
+        "gn_divisions": 20
+      }
+    ]
+  },
+  {
+    "district": "Mullaitivu",
+    "ds_divisions": [
+      {
+        "name": "Thunukkai",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Manthai East",
+        "gn_divisions": 15
+      },
+      {
+        "name": "Puthukkudiyiruppu",
+        "gn_divisions": 19
+      },
+      {
+        "name": "Oddusuddan",
+        "gn_divisions": 27
+      },
+      {
+        "name": "Maritimepattu",
+        "gn_divisions": 46
+      },
+      {
+        "name": "Welioya",
+        "gn_divisions": 9
+      }
+    ]
+  },
+  {
+    "district": "Killinochchi",
+    "ds_divisions": [
+      {
+        "name": "Pachchilaipalli",
+        "gn_divisions": 18
+      },
+      {
+        "name": "Kandavalai",
+        "gn_divisions": 16
+      },
+      {
+        "name": "Karachchi",
+        "gn_divisions": 42
+      },
+      {
+        "name": "Poonakary",
+        "gn_divisions": 19
+      }
+    ]
+  },
+  {
+    "district": "Batticaloa",
+    "ds_divisions": [
+      {
+        "name": "Koralai Pattu North (Vaharai)",
+        "gn_divisions": 16
+      },
+      {
+        "name": "Koralai Pattu Central",
+        "gn_divisions": 9
+      },
+      {
+        "name": "Koralai Pattu West (Oddamavadi)",
+        "gn_divisions": 8
+      },
+      {
+        "name": "Koralai Pattu (Valachchenai)",
+        "gn_divisions": 12
+      },
+      {
+        "name": "Koralai Pattu South (Kiran)",
+        "gn_divisions": 18
+      },
+      {
+        "name": "Eravur Pattu",
+        "gn_divisions": 39
+      },
+      {
+        "name": "Eravur Town",
+        "gn_divisions": 15
+      },
+      {
+        "name": "Manmunai North",
+        "gn_divisions": 48
+      },
+      {
+        "name": "Manmunai West",
+        "gn_divisions": 24
+      },
+      {
+        "name": "Kattankudy",
+        "gn_divisions": 18
+      },
+      {
+        "name": "Manmunai Pattu (Araipattai)",
+        "gn_divisions": 27
+      },
+      {
+        "name": "Manmunai South-West",
+        "gn_divisions": 24
+      },
+      {
+        "name": "Porativu Pattu",
+        "gn_divisions": 43
+      },
+      {
+        "name": "Manmunai South & Eruvil Pattu",
+        "gn_divisions": 45
+      }
+    ]
+  },
+  {
+    "district": "Ampara",
+    "ds_divisions": [
+      {
+        "name": "Dehiattakandiya",
+        "gn_divisions": 13
+      },
+      {
+        "name": "Padiyathalawa",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Mahaoya",
+        "gn_divisions": 17
+      },
+      {
+        "name": "Uhana",
+        "gn_divisions": 55
+      },
+      {
+        "name": "Ampara",
+        "gn_divisions": 22
+      },
+      {
+        "name": "Navithanveli",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Sammanthurai",
+        "gn_divisions": 51
+      },
+      {
+        "name": "Kalmunai Tamil Division",
+        "gn_divisions": 29
+      },
+      {
+        "name": "Kalmunai",
+        "gn_divisions": 29
+      },
+      {
+        "name": "Sainthamaruthu",
+        "gn_divisions": 17
+      },
+      {
+        "name": "Karaitheevu",
+        "gn_divisions": 17
+      },
+      {
+        "name": "Ninthavur",
+        "gn_divisions": 25
+      },
+      {
+        "name": "Addalaichchenai",
+        "gn_divisions": 32
+      },
+      {
+        "name": "Irakkamam",
+        "gn_divisions": 12
+      },
+      {
+        "name": "Akkaraipattu",
+        "gn_divisions": 28
+      },
+      {
+        "name": "Alayadiwembu",
+        "gn_divisions": 22
+      },
+      {
+        "name": "Damana",
+        "gn_divisions": 33
+      },
+      {
+        "name": "Thirukkovil",
+        "gn_divisions": 22
+      },
+      {
+        "name": "Pothuvil",
+        "gn_divisions": 27
+      },
+      {
+        "name": "Lahugala",
+        "gn_divisions": 12
+      }
+    ]
+  },
+  {
+    "district": "Trincomalee",
+    "ds_divisions": [
+      {
+        "name": "Padavi Sri Pura",
+        "gn_divisions": 10
+      },
+      {
+        "name": "Kuchchaveli",
+        "gn_divisions": 24
+      },
+      {
+        "name": "Gomarankadawala",
+        "gn_divisions": 10
+      },
+      {
+        "name": "Morawewa",
+        "gn_divisions": 10
+      },
+      {
+        "name": "Trincomalee Town and Gravets",
+        "gn_divisions": 42
+      },
+      {
+        "name": "Thambalagamuwa",
+        "gn_divisions": 12
+      },
+      {
+        "name": "Kanthale",
+        "gn_divisions": 23
+      },
+      {
+        "name": "Kinniya",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Muttur",
+        "gn_divisions": 42
+      },
+      {
+        "name": "Seruvila",
+        "gn_divisions": 16
+      },
+      {
+        "name": "Verugal (Eachchilampattu)",
+        "gn_divisions": 10
+      }
+    ]
+  },
+  {
+    "district": "Kurunegala",
+    "ds_divisions": [
+      {
+        "name": "Giribawa",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Galgamuwa",
+        "gn_divisions": 62
+      },
+      {
+        "name": "Ehetuwewa",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Ambanpola",
+        "gn_divisions": 28
+      },
+      {
+        "name": "Kotavehera",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Rasnayakapura",
+        "gn_divisions": 28
+      },
+      {
+        "name": "Nikaweratiya",
+        "gn_divisions": 42
+      },
+      {
+        "name": "Maho",
+        "gn_divisions": 68
+      },
+      {
+        "name": "Polpithigama",
+        "gn_divisions": 82
+      },
+      {
+        "name": "Ibbagamuwa",
+        "gn_divisions": 74
+      },
+      {
+        "name": "Ganewatta",
+        "gn_divisions": 42
+      },
+      {
+        "name": "Wariyapola",
+        "gn_divisions": 56
+      },
+      {
+        "name": "Kobeigane",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Bingiriya",
+        "gn_divisions": 52
+      },
+      {
+        "name": "Panduwasnuwara West",
+        "gn_divisions": 67
+      },
+      {
+        "name": "Panduwasnuwara East",
+        "gn_divisions": 36
+      },
+      {
+        "name": "Bamunakotuwa",
+        "gn_divisions": 36
+      },
+      {
+        "name": "Maspotha",
+        "gn_divisions": 33
+      },
+      {
+        "name": "Kurunegala",
+        "gn_divisions": 54
+      },
+      {
+        "name": "Mallawapitiya",
+        "gn_divisions": 45
+      },
+      {
+        "name": "Mawathagama",
+        "gn_divisions": 71
+      },
+      {
+        "name": "Rideegama",
+        "gn_divisions": 113
+      },
+      {
+        "name": "Weerambugedara",
+        "gn_divisions": 38
+      },
+      {
+        "name": "Kuliyapitiya East",
+        "gn_divisions": 45
+      },
+      {
+        "name": "Kuliyapitiya West",
+        "gn_divisions": 68
+      },
+      {
+        "name": "Udubaddawa",
+        "gn_divisions": 43
+      },
+      {
+        "name": "Pannala",
+        "gn_divisions": 87
+      },
+      {
+        "name": "Narammala",
+        "gn_divisions": 54
+      },
+      {
+        "name": "Alawwa",
+        "gn_divisions": 66
+      },
+      {
+        "name": "Polgahawela",
+        "gn_divisions": 84
+      }
+    ]
+  },
+  {
+    "district": "Puttalam",
+    "ds_divisions": [
+      {
+        "name": "Kalpitiya",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Vanathawilluwa",
+        "gn_divisions": 17
+      },
+      {
+        "name": "Karuwalagaswewa",
+        "gn_divisions": 26
+      },
+      {
+        "name": "Nawagattegama",
+        "gn_divisions": 19
+      },
+      {
+        "name": "Puttalam",
+        "gn_divisions": 22
+      },
+      {
+        "name": "Mundel",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Mahakumbukkadawala",
+        "gn_divisions": 25
+      },
+      {
+        "name": "Anamaduwa",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Pallama",
+        "gn_divisions": 18
+      },
+      {
+        "name": "Arachchikattuwa",
+        "gn_divisions": 33
+      },
+      {
+        "name": "Chilaw",
+        "gn_divisions": 49
+      },
+      {
+        "name": "Madampe",
+        "gn_divisions": 49
+      },
+      {
+        "name": "Mahawewa",
+        "gn_divisions": 47
+      },
+      {
+        "name": "Nattandiya",
+        "gn_divisions": 47
+      },
+      {
+        "name": "Wennappuwa",
+        "gn_divisions": 52
+      },
+      {
+        "name": "Dankotuwa",
+        "gn_divisions": 47
+      }
+    ]
+  },
+  {
+    "district": "Anuradhapura",
+    "ds_divisions": [
+      {
+        "name": "Padaviya",
+        "gn_divisions": 15
+      },
+      {
+        "name": "Kebithigollewa",
+        "gn_divisions": 26
+      },
+      {
+        "name": "Medawachchiya",
+        "gn_divisions": 37
+      },
+      {
+        "name": "Mahawilachchiya",
+        "gn_divisions": 17
+      },
+      {
+        "name": "Nuwaragam Palatha Central",
+        "gn_divisions": 40
+      },
+      {
+        "name": "Rambewa",
+        "gn_divisions": 38
+      },
+      {
+        "name": "Kahatagasdigiliya",
+        "gn_divisions": 40
+      },
+      {
+        "name": "Horowpothana",
+        "gn_divisions": 38
+      },
+      {
+        "name": "Galenbindunuwewa",
+        "gn_divisions": 41
+      },
+      {
+        "name": "Mihinthale",
+        "gn_divisions": 25
+      },
+      {
+        "name": "Nuwaragam Palatha East",
+        "gn_divisions": 29
+      },
+      {
+        "name": "Nachchaduwa",
+        "gn_divisions": 19
+      },
+      {
+        "name": "Nochchiyagama",
+        "gn_divisions": 36
+      },
+      {
+        "name": "Rajanganaya",
+        "gn_divisions": 21
+      },
+      {
+        "name": "Thambuttegama",
+        "gn_divisions": 26
+      },
+      {
+        "name": "Thalawa",
+        "gn_divisions": 39
+      },
+      {
+        "name": "Thirappane",
+        "gn_divisions": 41
+      },
+      {
+        "name": "Kekirawa",
+        "gn_divisions": 53
+      },
+      {
+        "name": "Palugaswewa",
+        "gn_divisions": 16
+      },
+      {
+        "name": "Ipalogama",
+        "gn_divisions": 32
+      },
+      {
+        "name": "Galnewa",
+        "gn_divisions": 30
+      },
+      {
+        "name": "Palagala",
+        "gn_divisions": 35
+      }
+    ]
+  },
+  {
+    "district": "Polonnaruwa",
+    "ds_divisions": [
+      {
+        "name": "Hingurakgoda",
+        "gn_divisions": 53
+      },
+      {
+        "name": "Medirigiriya",
+        "gn_divisions": 45
+      },
+      {
+        "name": "Lankapura",
+        "gn_divisions": 28
+      },
+      {
+        "name": "Welikanda",
+        "gn_divisions": 30
+      },
+      {
+        "name": "Dimbulagala",
+        "gn_divisions": 56
+      },
+      {
+        "name": "Thamankaduwa",
+        "gn_divisions": 55
+      },
+      {
+        "name": "Elahera",
+        "gn_divisions": 28
+      }
+    ]
+  },
+  {
+    "district": "Badulla",
+    "ds_divisions": [
+      {
+        "name": "Mahiyanganaya",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Rideemaliyadda",
+        "gn_divisions": 42
+      },
+      {
+        "name": "Meegahakivula",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Kandaketiya",
+        "gn_divisions": 26
+      },
+      {
+        "name": "Soranathota",
+        "gn_divisions": 25
+      },
+      {
+        "name": "Passara",
+        "gn_divisions": 41
+      },
+      {
+        "name": "Lunugala",
+        "gn_divisions": 28
+      },
+      {
+        "name": "Badulla",
+        "gn_divisions": 29
+      },
+      {
+        "name": "Hali-Ela",
+        "gn_divisions": 57
+      },
+      {
+        "name": "Uva Paranagama",
+        "gn_divisions": 68
+      },
+      {
+        "name": "Welimada",
+        "gn_divisions": 64
+      },
+      {
+        "name": "Bandarawela",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Ella",
+        "gn_divisions": 32
+      },
+      {
+        "name": "Haputale",
+        "gn_divisions": 26
+      },
+      {
+        "name": "Haldummulla",
+        "gn_divisions": 39
+      }
+    ]
+  },
+  {
+    "district": "Moneragala",
+    "ds_divisions": [
+      {
+        "name": "Bibile",
+        "gn_divisions": 40
+      },
+      {
+        "name": "Madulla",
+        "gn_divisions": 38
+      },
+      {
+        "name": "Medagama",
+        "gn_divisions": 35
+      },
+      {
+        "name": "Siyambalanduwa",
+        "gn_divisions": 48
+      },
+      {
+        "name": "Moneragala",
+        "gn_divisions": 26
+      },
+      {
+        "name": "Badalkumbura",
+        "gn_divisions": 41
+      },
+      {
+        "name": "Wellawaya",
+        "gn_divisions": 29
+      },
+      {
+        "name": "Buttala",
+        "gn_divisions": 29
+      },
+      {
+        "name": "Katharagama",
+        "gn_divisions": 5
+      },
+      {
+        "name": "Thanamalvila",
+        "gn_divisions": 14
+      },
+      {
+        "name": "Sevanagala",
+        "gn_divisions": 14
+      }
+    ]
+  },
+  {
+    "district": "Ratnapura",
+    "ds_divisions": [
+      {
+        "name": "Eheliyagoda",
+        "gn_divisions": 50
+      },
+      {
+        "name": "Kuruvita",
+        "gn_divisions": 31
+      },
+      {
+        "name": "Kiriella",
+        "gn_divisions": 19
+      },
+      {
+        "name": "Ratnapura",
+        "gn_divisions": 53
+      },
+      {
+        "name": "Imbulpe",
+        "gn_divisions": 50
+      },
+      {
+        "name": "Balangoda",
+        "gn_divisions": 53
+      },
+      {
+        "name": "Opanayake",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Pelmadulla",
+        "gn_divisions": 37
+      },
+      {
+        "name": "Elapatha",
+        "gn_divisions": 20
+      },
+      {
+        "name": "Ayagama",
+        "gn_divisions": 21
+      },
+      {
+        "name": "Kalawana",
+        "gn_divisions": 33
+      },
+      {
+        "name": "Nivithigala",
+        "gn_divisions": 24
+      },
+      {
+        "name": "Kahawatta",
+        "gn_divisions": 21
+      },
+      {
+        "name": "Godakawela",
+        "gn_divisions": 44
+      },
+      {
+        "name": "Weligepola",
+        "gn_divisions": 30
+      },
+      {
+        "name": "Embilipitiya",
+        "gn_divisions": 40
+      },
+      {
+        "name": "Kolonna",
+        "gn_divisions": 29
+      }
+    ]
+  },
+  {
+    "district": "Kegalle",
+    "ds_divisions": [
+      {
+        "name": "Rambukkana",
+        "gn_divisions": 89
+      },
+      {
+        "name": "Mawanella",
+        "gn_divisions": 71
+      },
+      {
+        "name": "Aranayaka",
+        "gn_divisions": 61
+      },
+      {
+        "name": "Kegalle",
+        "gn_divisions": 61
+      },
+      {
+        "name": "Galigamuwa",
+        "gn_divisions": 51
+      },
+      {
+        "name": "Warakapola",
+        "gn_divisions": 78
+      },
+      {
+        "name": "Ruwanwella",
+        "gn_divisions": 38
+      },
+      {
+        "name": "Bulathkohupitiya",
+        "gn_divisions": 27
+      },
+      {
+        "name": "Yatiyanthota",
+        "gn_divisions": 32
+      },
+      {
+        "name": "Dehiovita",
+        "gn_divisions": 39
+      },
+      {
+        "name": "Deraniyagala",
+        "gn_divisions": 26
+      }
+    ]
+  }
+]

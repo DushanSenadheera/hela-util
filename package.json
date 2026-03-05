@@ -23,8 +23,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0",
     "ts-node": "^10.9.1",
-    "@types/node": "^20.0.0"
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "hela-util": "^1.0.0"
   }
 }

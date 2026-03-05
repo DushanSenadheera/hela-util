@@ -7,3 +7,8 @@ export type Province = {
     capital: string;
     districts: string[];
 }
+
+export type PostalCode = {
+    postal_code: string;
+    location: string;
+}

@@ -9,7 +9,7 @@ import {
 
 console.log("--- Provinces ---");
 const provinces = getProvinces();
-console.log(provinces.map(p => p.name));
+console.log(provinces);
 
 console.log("\n--- Districts in Central ---");
 const districts = getDistrictsByProvince("Central");
@@ -29,4 +29,4 @@ console.log(dsDivisions);
 
 console.log("\n--- Total DS Divisions ---");
 const allDS = getDSDivisions();
-console.log(`Loaded ${allDS.length} districts with DS divisions.`);
+console.log(JSON.stringify(allDS));

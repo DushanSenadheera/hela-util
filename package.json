@@ -1,6 +1,6 @@
 {
   "name": "hela-util",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Ultra-lightweight, type-safe utility library for Sri Lankan administrative regions and postal codes with multilingual support.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -36,6 +36,14 @@
   ],
   "author": "Dushan Senadheera",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DushanSenadheera/hela-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DushanSenadheera/hela-util/issues"
+  },
+  "homepage": "https://github.com/DushanSenadheera/hela-util#readme",
   "devDependencies": {
     "@types/node": "^20.0.0",
     "ts-node": "^10.9.1",

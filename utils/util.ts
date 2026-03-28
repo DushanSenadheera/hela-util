@@ -1,20 +1,28 @@
-import { provinces, postalCodes, dsDivisions } from "../index.js";
+import { loadProvinces, loadPostalCodes, loadDSDivisions, loadGNDivisions } from "./data-loader.js";
 
 /**
  * Get all provinces
  * @returns {Province[]}
  */
 export const getProvinces = () => {
-    return provinces;
+    return loadProvinces();
 }
 
 /**
  * Get all districts by province
  * @param province - Province name
- * @returns {string[]}
+ * @returns {District[]}
  */
 export const getDistrictsByProvince = (province: string) => {
-    return provinces.find((p) => p.name === province)?.districts;
+    return loadProvinces().find((p) => p.name === province)?.districts;
+}
+
+/**
+ * Get all districts
+ * @returns {District[]}
+ */
+export const getDistricts = () => {
+    return loadProvinces().flatMap((p) => p.districts);
 }
 
 /**
@@ -23,7 +31,7 @@ export const getDistrictsByProvince = (province: string) => {
  * @returns {PostalCode}
  */
 export const getPostalCodeByLocation = (location: string) => {
-    return postalCodes.find((p) => p.location === location);
+    return loadPostalCodes().find((p) => p.location.name === location || p.location.sinhala_name === location || p.location.tamil_name === location);
 }
 
 /**
@@ -31,7 +39,7 @@ export const getPostalCodeByLocation = (location: string) => {
  * @returns {PostalCode[]}
  */
 export const getPostalCodes = () => {
-    return postalCodes;
+    return loadPostalCodes();
 }
 
 /**
@@ -50,7 +58,7 @@ export const isValidPostalCode = (postalCode: string): boolean => {
  * @returns {DSDivision[]}
  */
 export const getDSDivisionsByDistrict = (district: string) => {
-    return dsDivisions.find((d) => d.district === district)?.ds_divisions;
+    return loadDSDivisions().find((d) => d.district === district)?.ds_divisions;
 }
 
 /**
@@ -58,5 +66,23 @@ export const getDSDivisionsByDistrict = (district: string) => {
  * @returns {DistrictDSDivisions[]}
  */
 export const getDSDivisions = () => {
-    return dsDivisions;
+    return loadDSDivisions();
+}
+
+/**
+ * Get GN divisions by DS division
+ * @param district - District name
+ * @param dsDivision - DS division name
+ * @returns {LocalizedName[]}
+ */
+export const getGNDivisionsByDSDivision = (district: string, dsDivision: string) => {
+    return loadGNDivisions().find((d) => d.district === district)?.ds_divisions.find((ds) => ds.name === dsDivision)?.gn_divisions;
+}
+
+/**
+ * Get all GN divisions
+ * @returns {DistrictGNDivisions[]}
+ */
+export const getGNDivisions = () => {
+    return loadGNDivisions();
 }

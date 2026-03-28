@@ -1,7 +1,7 @@
 {
   "name": "hela-util",
-  "version": "3.0.0",
-  "description": "Ultra-lightweight, type-safe utility for Sri Lankan administrative regions (provinces, districts, DS divisions) and postal codes.",
+  "version": "4.0.0",
+  "description": "Ultra-lightweight, type-safe utility library for Sri Lankan administrative regions and postal codes with multilingual support.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,29 +13,29 @@
     }
   },
   "type": "module",
+  "sideEffects": false,
   "files": [
     "dist"
   ],
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts --minify --clean --splitting --treeshake",
-    "dev": "tsx example.ts"
+    "dev": "tsx example.ts",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "sri lanka",
     "provinces",
     "districts",
     "ds divisions",
+    "gn divisions",
     "postal codes",
     "hela-util",
-    "npm",
-    "util",
     "typescript",
-    "ceylon",
-    "lk",
-    "administrative-regions"
+    "administrative-regions",
+    "multilingual"
   ],
   "author": "Dushan Senadheera",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.0.0",
     "ts-node": "^10.9.1",

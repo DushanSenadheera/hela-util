@@ -1,23 +1,29 @@
 # 🇱🇰 hela-util
 
-An ultra-lightweight, type-safe utility library for working with Sri Lankan administrative regions (provinces, districts, and DS divisions) and postal codes.
+An ultra-lightweight, type-safe utility library for working with Sri Lankan administrative regions (provinces, districts, DS divisions, GN divisions) and postal codes with full multilingual support.
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![NPM Version](https://img.shields.io/npm/v/hela-util?style=flat-square)](https://www.npmjs.com/package/hela-util)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=flat-square)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
 
 ## ✨ Features
 
-- 🪶 **Ultra-lightweight**: Under **230kB** unpacked size with **Zero external dependencies**.
+- 🪶 **Ultra-lightweight**: Under **1MB** unpacked size with **Zero external dependencies**.
 - 🛡️ **Type-safe**: Built with TypeScript; full type definitions included.
-- 🚀 **Modern**: supports ES Modules (ESM) and CommonJS (CJS).
+- 🚀 **Modern & Optimized**: 
+  - Supports ES Modules (ESM) and CommonJS (CJS).
+  - **Side-effects free** and **Tree-shakable**.
+  - **Lazy Data Loading**: Large datasets (like GN divisions) are only initialized when first accessed.
+- 🗺️ **Full Multilingual Support**: 
+  - All names (Provinces, Districts, Capitals, Postal Locations, GN Divisions) available in **English, සිංහල, and தமிழ்**.
 - 🗺️ **Comprehensive Data**: 
-  - All 9 Provinces (English, Sinhala, Tamil names + ISO & P-codes).
+  - All 9 Provinces (ISO, P-codes, Capitals).
   - All 25 Districts.
-  - 331 Divisional Secretariat (DS) Divisions with GN division counts.
-  - Complete list of Postal Codes for major locations.
+  - 331 Divisional Secretariat (DS) Divisions.
+  - **Grama Niladhari (GN) Divisions** list (~2,500+ across major districts).
+  - Complete list of Postal Codes (~2,100+) with localized names.
 - ✅ **Validation**: Built-in helper for validating Sri Lankan postal codes.
 
 ---
@@ -35,36 +41,32 @@ npm install hela-util
 ```typescript
 import { 
     getProvinces, 
+    getDistricts,
     getDistrictsByProvince, 
     getDSDivisionsByDistrict,
-    getDSDivisions,
+    getGNDivisionsByDSDivision,
     getPostalCodeByLocation,
     isValidPostalCode 
 } from "hela-util";
 
-// 1. Get all provinces with Sinhala/Tamil names and districts
+// 1. Get provinces with full multilingual support
 const provinces = getProvinces();
-console.log(provinces[0].name);          // "Central"
 console.log(provinces[0].sinhala_name);  // "මධ්‍යම"
 
-// 2. Get districts for a specific province
-const districts = getDistrictsByProvince("Central"); 
-// Output: ["Kandy", "Matale", "Nuwara Eliya"]
+// 2. Get all districts in Sri Lanka
+const allDistricts = getDistricts();
+// allDistricts[0] -> { name: "Kandy", sinhala_name: "මහනුවර", tamil_name: "கண்டி" }
 
-// 3. Get DS Divisions for a specific district
-const colomboDivisions = getDSDivisionsByDistrict("Colombo");
-// Output: [{ name: 'Colombo', gn_divisions: 35 }, ...]
+// 3. Search Postal Codes by name in ANY language
+const code = getPostalCodeByLocation("අතුරුගිරිය"); // or "Athurugiriya"
+console.log(code.postal_code);            // "10150"
 
-// 4. Get all districts and their DS divisions
-const allDS = getDSDivisions();
-// Output: [{ district: 'Colombo', ds_divisions: [...] }, ...]
+// 4. GN Divisions (Grama Niladhari) lookup
+const gns = getGNDivisionsByDSDivision("Colombo", "Thimbirigasyaya");
+// gns[0] -> { name: "Sammanthranapura", ... }
 
-// 5. Find a postal code by location name
-const code = getPostalCodeByLocation("Athurugiriya(CO)");
-// Output: { postal_code: '10150', location: 'Athurugiriya(CO)' }
-
-// 6. Validate a 5-digit postal code
-const isValidResult = isValidPostalCode("10250"); // true
+// 5. Validation
+isValidPostalCode("10150"); // true
 ```
 
 ---
@@ -72,33 +74,48 @@ const isValidResult = isValidPostalCode("10250"); // true
 ## 📖 API Reference
 
 ### Provinces & Districts
-- **`getProvinces()`**: Returns an array of `Province` objects (includes Sinhala/Tamil names, capital, ISO codes, and districts).
-- **`getDistrictsByProvince(provinceName)`**: Returns a string array of district names for the given province.
+- **`getProvinces()`**: Returns `Province[]`. Includes localized names for both the province and its districts.
+- **`getDistricts()`**: Returns a flattened array of all 25 `District` objects.
+- **`getDistrictsByProvince(provinceName)`**: Returns `District[]` for the given province name (English).
 
-### DS Divisions
-- **`getDSDivisionsByDistrict(districtName)`**: Returns an array of `DSDivision` objects (`name` and `gn_divisions`) for the given district.
+### DS & GN Divisions
+- **`getDSDivisionsByDistrict(districtName)`**: Returns `DSDivision[]` for the given district.
 - **`getDSDivisions()`**: Returns the full list of districts and their DS divisions.
+- **`getGNDivisionsByDSDivision(district, dsDivision)`**: Returns `LocalizedName[]` (GN divisions) for a specific DS area.
+- **`getGNDivisions()`**: Returns high-detail mapping of all currently available GN divisions.
 
 ### Postal Codes
-- **`getPostalCodeByLocation(location)`**: Returns a `PostalCode` object (`postal_code` and `location`) for the matched string.
-- **`getPostalCodes()`**: Returns the full array of postal codes.
-- **`isValidPostalCode(code)`**: Returns `true` if the string matches the 5-digit Sri Lankan postal code format.
+- **`getPostalCodeByLocation(location)`**: Returns a `PostalCode` object. Matches against English, Sinhala, or Tamil location names.
+- **`getPostalCodes()`**: Returns the full list of ~2,100+ postal codes with localized names.
+- **`isValidPostalCode(code)`**: Returns `true` for valid 5-digit Sri Lankan postal codes.
 
 ---
 
 ## 🛠️ Development
 
-1. Clone the repository.
-2. Install dependencies: `npm install`.
-3. Run the development watch: `npm run dev`.
-4. Build the production files: `npm run build`.
+1. Clone the repository: `git clone ...`
+2. Install dependencies: `npm install`
+3. Run dev environment: `npm run dev`
+4. Build for production: `npm run build`
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to help:
+1. **Fork** the repository.
+2. Create your **feature branch**.
+3. **Commit** your changes.
+4. **Push** to the branch.
+5. Submit a **Pull Request**.
+
+If you're updating administrative data (GN divisions, postal codes, etc.), please provide a link to the official source if possible to help with verification.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [ISC License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 *Maintained with ❤️ for the Sri Lankan developer community.*
-

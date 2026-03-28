@@ -93,7 +93,7 @@ isValidPostalCode("10150"); // true
 
 ## 🛠️ Development
 
-1. Clone the repository: `git clone ...`
+1. Clone the repository: `git clone https://github.com/DushanSenadheera/hela-util.git`
 2. Install dependencies: `npm install`
 3. Run dev environment: `npm run dev`
 4. Build for production: `npm run build`
